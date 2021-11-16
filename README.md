@@ -15,7 +15,7 @@ Audio Augmented Reality (AAR) Postcard Player. A cross-platform Unity template p
 
 Other software and plugin versions may work, but the above configuration has been tested on both iOS and Android.
 
-FMOD Studio and FMOD events are only required in order to use ResonanceAudio (which comes packaed with FMIOD Studio) as the binaural spatialisation plugin within Unity. If you have another binural audio spatilaiser plugin, such as DearVR, or you do not require binaural audio, you can skip FMOD and use normal Unity audio sources. Unless you want to use FMOD to script addtional audio interactions based on, for example, the distance between the listener and the tracked image.
+FMOD Studio and FMOD events are only required in order to use ResonanceAudio (which comes packaged with FMIOD Studio) as the binaural spatialisation plugin within Unity. If you have another binural audio spatilaiser plugin, such as DearVR, or you do not require binaural audio, you can skip FMOD and use normal Unity audio sources. Unless of course you want to use FMOD to script addtional audio interactions based on, for example, the distance between the listener and the tracked image.
 
 ## Instructions for basic operation
 
