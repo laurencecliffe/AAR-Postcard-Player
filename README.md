@@ -17,7 +17,7 @@ Other software and plugin versions may work, but the above configuration has bee
 
 FMOD Studio and FMOD events are only required in order to use ResonanceAudio (which comes packaged with FMIOD Studio) as the binaural spatialisation plugin within Unity. If you have another binural audio spatilaiser plugin, such as DearVR, or you do not require binaural audio, you can skip FMOD and use normal Unity audio sources. Unless of course you want to use FMOD to script addtional audio interactions based on, for example, the distance between the listener and the tracked image.
 
-## Instructions for basic operation
+## Getting up and running:
 
 1. Follow this guide for creating binaurally rendered audio sources in FMOD Studio with ResonanceAudio and integrating them into the Unity project: https://alessandrofama.com/tutorials/fmod-unity/resonance-audio-setup/
 2. Set the attenuation curves, max distance and other parameters for your FMOD Events with the ResonanceAudio Source controls within FMOD Studio.
