@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8178259174614036643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/coffee-machine
+  m_EditorClassIdentifier: 
+  Path: event:/coffee-machine
+  guid: ab9079e066f1ab40b9744e854768ed26
+  Banks:
+  - {fileID: -6310995570621964966}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 72000
+--- !u!114 &-6310995570621964966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: AR Sound Postcard Player/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637672990140000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1731512027269639179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Babbage _Diff_Engine_1
+  m_EditorClassIdentifier: 
+  Path: event:/Babbage _Diff_Engine_1
+  guid: 1f4121cf644bc54d9dd5bd58fee3bcd1
+  Banks:
+  - {fileID: -6310995570621964966}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 76698
+--- !u!114 &-1376626347737840691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.strings.bank
+  m_EditorClassIdentifier: 
+  Path: AR Sound Postcard Player/Build/Desktop/Master Bank.strings.bank
+  SubDir: 
+  lastModified: 637672990140000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1070
+  - Name: Mobile
+    Value: 1070
+  Exists: 1
+--- !u!114 &-989150005069317750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/children
+  m_EditorClassIdentifier: 
+  Path: event:/children
+  guid: 50f3e642eb3cea4f85ae23e9136c7fff
+  Banks:
+  - {fileID: -6310995570621964966}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 72000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -1376626347737840691}
+  - {fileID: -6310995570621964966}
+  EditorEvents:
+  - {fileID: 459259955216617294}
+  - {fileID: 8088470847761147867}
+  - {fileID: -1731512027269639179}
+  - {fileID: -989150005069317750}
+  - {fileID: 4083730656030713493}
+  - {fileID: 4560972281447648916}
+  - {fileID: -8178259174614036643}
+  - {fileID: 8999549750902203977}
+  - {fileID: 2836630578381894976}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -6310995570621964966}
+  StringsBanks:
+  - {fileID: -1376626347737840691}
+  stringsBankWriteTime: 637672990140000000
+  cacheVersion: 3
+--- !u!114 &459259955216617294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mill-Engine-Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Mill-Engine-Loop
+  guid: 01fc0bbe02c7d14ea98a20986ad4ecb7
+  Banks:
+  - {fileID: -6310995570621964966}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 9904
+--- !u!114 &2836630578381894976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/chatting
+  m_EditorClassIdentifier: 
+  Path: event:/chatting
+  guid: d5ebda10d99b21458940f0bdcfcd231f
+  Banks:
+  - {fileID: -6310995570621964966}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 81611
+--- !u!114 &4083730656030713493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/speaking-clock-loop
+  m_EditorClassIdentifier: 
+  Path: event:/speaking-clock-loop
+  guid: 7ffb6def2212654cba54b6a884804b86
+  Banks:
+  - {fileID: -6310995570621964966}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 39531
+--- !u!114 &4560972281447648916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/wells-clock-loop
+  m_EditorClassIdentifier: 
+  Path: event:/wells-clock-loop
+  guid: 8e2e736009496843944fdc31aa7d4108
+  Banks:
+  - {fileID: -6310995570621964966}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 73062
+--- !u!114 &8088470847761147867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/cafe-ambience
+  m_EditorClassIdentifier: 
+  Path: event:/cafe-ambience
+  guid: 1cd8bde2624ab6439fb27535a0ae5f0f
+  Banks:
+  - {fileID: -6310995570621964966}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 255000
+--- !u!114 &8999549750902203977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/children2
+  m_EditorClassIdentifier: 
+  Path: event:/children2
+  guid: c310c776c908c34b809032682ff73bb6
+  Banks:
+  - {fileID: -6310995570621964966}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 72000
